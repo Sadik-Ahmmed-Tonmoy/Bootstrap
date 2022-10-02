@@ -1,0 +1,26 @@
+.navbar-brand img{
+  height: 40px;
+  width: 40px;
+}
+.middle-name{
+
+  font-size: x-large;
+  opacity: 30%;
+  color: bisque;
+}
+.bg-color{
+  background-color: #EAEFF1;
+}
+.row{
+  padding: 20px 200px;
+}
+.price{
+  color: #D2001A;
+}
+.Buy-Now-Button{
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+  color: #fff;
+  border-radius: 8%;
+  padding: 9px 25px;
+  cursor: pointer;
+}
