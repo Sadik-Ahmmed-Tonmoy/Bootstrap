@@ -1,15 +1,20 @@
+.container{
+  margin-bottom: 5px;
+}
 .navbar-brand img{
   height: 40px;
   width: 40px;
 }
 .middle-name{
-
+  flex: auto;
   font-size: x-large;
   opacity: 30%;
   color: bisque;
 }
 .bg-color{
   background-color: #EAEFF1;
+  border-radius: 10px;
+  
 }
 .row{
   padding: 20px 200px;
@@ -24,3 +29,16 @@
   padding: 9px 25px;
   cursor: pointer;
 }
+.categories img{
+  width: 200px;
+  height: 200px;
+}
+/*t-shirt, bag, cap*/
+.cat1{background-color: wheat; padding: 10px 80px;}
+.cat2{background-color: olivedrab; padding: 10px 50px;}
+.cat3{background-color: lightblue;  padding: 10px 50px;}
+.cat3 h1{padding: 0 55px;}
+
+
+/*practice*/
+.pr1, .pr2, .pr3{background-color: #D2001A;}
