@@ -1,5 +1,5 @@
 .container{
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 .navbar-brand img{
   height: 40px;
@@ -7,18 +7,16 @@
 }
 .middle-name{
   flex: auto;
-  font-size: x-large;
+  font-size: medium;
   opacity: 30%;
   color: bisque;
 }
 .bg-color{
   background-color: #EAEFF1;
   border-radius: 10px;
-  
-}
-.row{
   padding: 20px 200px;
 }
+
 .price{
   color: #D2001A;
 }
@@ -30,15 +28,17 @@
   cursor: pointer;
 }
 .categories img{
-  width: 200px;
-  height: 200px;
+  width: 120px;
 }
 /*t-shirt, bag, cap*/
-.cat1{background-color: wheat; padding: 10px 80px;}
-.cat2{background-color: olivedrab; padding: 10px 50px;}
-.cat3{background-color: lightblue;  padding: 10px 50px;}
-.cat3 h1{padding: 0 55px;}
+.cat1{background-color: wheat; border-radius: 10px; padding: 50px;}
+.cat2{background-color: olivedrab; border-radius: 10px; padding: 50px;}
+.cat3{background-color: lightblue; border-radius: 10px; padding: 50px;}
 
 
-/*practice*/
-.pr1, .pr2, .pr3{background-color: #D2001A;}
+
+/*3rd row(t-shirt)*/
+.card{
+  border: none;
+  box-shadow: 5px 5px 20px lightgray;
+}

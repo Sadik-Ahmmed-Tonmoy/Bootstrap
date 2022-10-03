@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
 
     <link rel="stylesheet" href="style.css">
   <body>
@@ -22,10 +23,10 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">T-Shirt</a>
+            <a class="nav-link" href="#tshirt">T-Shirt</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Backpack</a>
+            <a class="nav-link" href="#backpack">Backpack</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Cap</a>
@@ -93,36 +94,212 @@
 <div class="container categories">
   <div class="row">
     <div class="col-md-4">
-     <div class="cat1">
+     <div class="d-flex justify-content-between align-items-center cat1">
       <h1>T-shirt</h1>
-     <img src="image/Rw/blue-tshirt, GrabRhinoWear, RhinoWear Bd_prev_ui.png" alt="">
+      <img src="image/Rw/blue-tshirt, GrabRhinoWear, RhinoWear Bd_prev_ui.png" alt="">
      </div>
     </div>
     <div class="col-md-4">
-      <div class="cat2">
+      <div class="d-flex justify-content-between align-items-center cat2">
         <h1>Backpack</h1>
-      <img src="image/Backpack.png" alt="">
+        <img src="image/Backpack.png" alt="">
       </div>
     </div>
     <div class="col-md-4">
-      <div class="cat3">
+      <div class="d-flex justify-content-between align-items-center cat3">
         <h1>Cap</h1>
       <img src="image/cap.png" alt="">
+      
       </div>
     </div>
   </div>
 </div>
-<!--grid practice-->
-<div class="containe">
-  <div class="row">
-    <div class="col-md-4 pr1">
-      <h1>practice</h1>
+<hr>
+<!--3rd row(t-shirt)-->
+<div class="container" id="tshirt">
+  <H3>T-shirt</H3>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="Image/Rw/Garnet MaroonTshirt, Tshirt for men, GrabRhinoWear, RhinoWear.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Garnet Maroon</h5>
+          <p class="card-text">Everyone wants it.</p>
+          <h5>$199</h5>
+          <button class="Buy-Now-Button">Buy Now>></button>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
     </div>
-    <div class="col-md-4 pr2">
-      <h1>practice</h1>
+    <div class="col">
+      <div class="card h-100">
+        <img src="Image/Rw/Night Black Tshirt, Tshirt for men, GrabRhinoWear.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Night Black</h5>
+          <p class="card-text">Famous for fashion and value.</p>
+          <h5>$199</h5>
+          <button class="Buy-Now-Button">Buy Now>></button>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
     </div>
-    <div class="col-md-4 pr3">
-      <h1>practice</h1>
+    <div class="col">
+      <div class="card h-100">
+        <img src="Image/Rw/Perfect Pink Tshirt, Tshirt for men, GrabRhinoWear, RhinoWear.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Perfect Pink</h5>
+          <p class="card-text">Easy to wear. Easy to clean.</p>
+          <h5>$199</h5>
+          <button class="Buy-Now-Button">Buy Now>></button>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="Image/Rw/blue-tshirt, GrabRhinoWear, RhinoWear Bd.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Navy Blue</h5>
+          <p class="card-text">More quality than you may ever need.</p>
+          <h5>$199</h5>
+          <button class="Buy-Now-Button">Buy Now>></button>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="Image/Rw/Charcoal GreyTshirt, Tshirt for men, GrabRhinoWear, RhinoWear.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Charcoal Grey</h5>
+          <p class="card-text">Powerful design for men. </p>
+          <h5>$199</h5>
+          <button class="Buy-Now-Button">Buy Now>></button>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="Image/Rw/Moon White, Tshirt for men, GrabRhinoWear, RhinoWear.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Moon White</h5>
+          <p class="card-text">A commitment to quality and value.</p>
+          <h5>$199</h5>
+          <button class="Buy-Now-Button">Buy Now>></button>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Backpack-->
+<div class="container" id="backpack">
+  <H3>Backpack</H3>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="Image/Rw/Garnet MaroonTshirt, Tshirt for men, GrabRhinoWear, RhinoWear.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Garnet Maroon</h5>
+          <p class="card-text">Everyone wants it.</p>
+          <h5>$199</h5>
+          <button class="Buy-Now-Button">Buy Now>></button>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="Image/Rw/Night Black Tshirt, Tshirt for men, GrabRhinoWear.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Night Black</h5>
+          <p class="card-text">Famous for fashion and value.</p>
+          <h5>$199</h5>
+          <button class="Buy-Now-Button">Buy Now>></button>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="Image/Rw/Perfect Pink Tshirt, Tshirt for men, GrabRhinoWear, RhinoWear.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Perfect Pink</h5>
+          <p class="card-text">Easy to wear. Easy to clean.</p>
+          <h5>$199</h5>
+          <button class="Buy-Now-Button">Buy Now>></button>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="Image/Rw/blue-tshirt, GrabRhinoWear, RhinoWear Bd.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Navy Blue</h5>
+          <p class="card-text">More quality than you may ever need.</p>
+          <h5>$199</h5>
+          <button class="Buy-Now-Button">Buy Now>></button>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="Image/Rw/Charcoal GreyTshirt, Tshirt for men, GrabRhinoWear, RhinoWear.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Charcoal Grey</h5>
+          <p class="card-text">Powerful design for men. </p>
+          <h5>$199</h5>
+          <button class="Buy-Now-Button">Buy Now>></button>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="Image/Rw/Moon White, Tshirt for men, GrabRhinoWear, RhinoWear.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Moon White</h5>
+          <p class="card-text">A commitment to quality and value.</p>
+          <h5>$199</h5>
+          <button class="Buy-Now-Button">Buy Now>></button>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
     </div>
   </div>
 </div>
