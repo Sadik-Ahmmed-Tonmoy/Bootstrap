@@ -42,3 +42,12 @@
   border: none;
   box-shadow: 5px 5px 20px lightgray;
 }
+/*Backpack section*/
+.bag-img img{
+  height: 450px;
+  width: 420px
+}
+/*Cap section*/
+.Cap-img img{
+  height: 450px;
+  width: 420px;}
