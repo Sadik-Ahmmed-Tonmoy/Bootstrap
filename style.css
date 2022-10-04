@@ -35,11 +35,13 @@
 
 
 
+
 /*3rd row(t-shirt)*/
 .card{
   border: none;
   box-shadow: 5px 5px 20px lightgray;
 }
+/*tshirt image*/
 .card img{
   height: 350px;
 }
@@ -56,4 +58,3 @@
     height: 115px;
   }
  
-  
