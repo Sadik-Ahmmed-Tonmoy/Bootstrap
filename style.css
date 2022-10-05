@@ -33,18 +33,29 @@
 .cat2{background-color: olivedrab; border-radius: 10px; padding: 20px 0px 20px 10px;}
 .cat3{background-color: lightblue; border-radius: 10px; padding: 20px 30px 20px 40px;}
 
-
-
+.cat1:hover{
+  text-shadow: 10px; text-decoration: none; text-transform: uppercase;
+}
+.cat2:hover{
+  text-shadow: 10px; text-decoration: none; text-transform: uppercase;
+}
+.cat3:hover{
+  text-shadow: 10px; text-decoration: none; text-transform: uppercase;
+}
 
 /*3rd row(t-shirt)*/
 .card{
   border: none;
   box-shadow: 5px 5px 20px lightgray;
 }
+.card :hover{
+  text-transform: uppercase; color: brown;
+}
 /*tshirt image*/
 .card img{
   height: 350px;
 }
+
 /*Backpack section*/
 .bag-img img{
   height: 400px;
@@ -59,6 +70,7 @@
   }
  
 .carousel-item img{
-  height: 400px;
-  
+  height: 400px;  
 }
+/*Footer*/
+.scrl{height: 25px;}
