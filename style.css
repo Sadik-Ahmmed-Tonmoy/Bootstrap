@@ -1,23 +1,4 @@
-.container{
-  margin-bottom: 15px;
-}
-.navbar-brand img{
-  height: 40px;
-  width: 40px;
-}
-.middle-name{
-  opacity: 30%;
-  color: bisque;
-}
-.bg-color{
-  background-color: #EAEFF1;
-  border-radius: 10px;
-  padding: 20px 200px;
-}
-
-.price{
-  color: #D2001A;
-}
+/*Button design*/
 .Buy-Now-Button{
   background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
   color: #fff;
@@ -25,10 +6,31 @@
   padding: 9px 25px;
   cursor: pointer;
 }
-.categories img{
-  width: 120px;
+
+.container{
+  margin-bottom: 20px;
 }
+/*navbar-icon*/
+.navbar-brand img{
+  height: 40px;
+  width: 40px;
+}
+/*navbar*/
+.middle-name{
+  opacity: 40%;
+  color: wheat;
+}
+
+/*Carousel-image*/
+.carousel-item img{
+  border-radius: 10px;
+}
+
 /*t-shirt, bag, cap*/
+.img-size img{
+  height: 115px;
+}
+
 .cat1{background-color: wheat; border-radius: 10px; padding: 20px 30px 20px 40px;}
 .cat2{background-color: olivedrab; border-radius: 10px; padding: 20px 0px 20px 10px;}
 .cat3{background-color: lightblue; border-radius: 10px; padding: 20px 30px 20px 40px;}
@@ -48,12 +50,12 @@
   border: none;
   box-shadow: 5px 5px 20px lightgray;
 }
-.card :hover{
+.card:hover{
   text-transform: uppercase; color: brown;
 }
 /*tshirt image*/
 .card img{
-  height: 350px;
+  height: 360px;
 }
 
 /*Backpack section*/
@@ -64,13 +66,13 @@
 /*Cap section*/
 .Cap-img img{
   height: 380px}
-
-  .img-size img{
-    height: 115px;
-  }
  
-.carousel-item img{
-  heig;  
-}
 /*Footer*/
-.scrl{height: 25px;}
+.bg-color{
+  background-color: #EAEFF1;
+  border-radius: 10px;
+  padding: 20px 200px;
+}
+/*Footer-scroll-image*/
+.scrl-img{height: 25px;}
+
